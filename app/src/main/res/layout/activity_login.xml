@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".login" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logofastfood"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="Arial"
+            android:text="ĐĂNG NHẬP"
+            android:textColorLink="#000011"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtUsername_Login"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/radius_ed"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:width="200dp" >
+
+                <requestFocus />
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/txtPassword_Login"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/radius_ed"
+                android:ems="10"
+                android:textSize="20dp"
+                android:inputType="textPassword"
+                android:width="250dp" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_btn"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Đăng nhập"
+            android:textColorLink="#000011"
+            android:textStyle="bold"
+            android:width="120dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_btn"
+            android:text="Đăng ký"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#000011"
+            android:textStyle="bold"
+            android:width="120dp" />
+</LinearLayout>
+
+

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".products" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="QUẢN LÝ SẢN PHẨM"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btnDanhMuc_SanPham"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/radius_btn"
+            android:layout_gravity="center"
+            android:text="Danh mục"
+            android:layout_marginRight="20dp"
+            android:textColorLink="#000011"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:width="320dp" />
+
+        <Button
+            android:id="@+id/btnGiamgia"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/radius_btn"
+            android:text="Số lượng sản phẩm"
+            android:layout_marginLeft="20dp"
+            android:textColorLink="#000011"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:width="330dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+    <Button
+        android:id="@+id/btnSanPham_SP"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/radius_btn"
+        android:gravity="center"
+        android:text="Sản phẩm"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

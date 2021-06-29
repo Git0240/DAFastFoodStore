@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".List" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="TẤT CẢ DANH MỤC "
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <ListView
+            android:id="@+id/lv_SP"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+        </ListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ibtnAddDM"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/radius_btn1"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/ibtnBacksp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/radius_btn1"
+            android:text="Trở về" />
+    </LinearLayout>
+
+
+</LinearLayout>
